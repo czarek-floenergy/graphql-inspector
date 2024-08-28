@@ -13,6 +13,8 @@ const descriptionChangeTypes: TypeOfChangeType[] = [
   ChangeType.InputFieldDescriptionRemoved,
   ChangeType.InputFieldDescriptionChanged,
   ChangeType.TypeDescriptionChanged,
+  ChangeType.TypeDescriptionRemoved,
+  ChangeType.TypeDescriptionAdded,
 ];
 
 export const ignoreDescriptionChanges: Rule = ({ changes }) => {
